@@ -14754,7 +14754,7 @@ nonprograming Track
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14768,6 +14768,28 @@ nonprograming Track
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>The sql extension is already loaded. To reload it, use:
+  %reload_ext sql
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14796,6 +14818,46 @@ nonprograming Track
      </div>
 </div>
 </div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&#39;/Users/liangzhao/Downloads/Intro-to-Databases-F23/W4111_Fall_Oct/HomeworkAssignments/HW1-Part2-Nonprogramming&#39;</pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15104,6 +15166,45 @@ nonprograming Track
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&#39;/Users/liangzhao/Downloads/Intro-to-Databases-F23/W4111_Fall_Oct/HomeworkAssignments/HW1-Part2-Nonprogramming&#39;</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data_dir</span> <span class="o">=</span> <span class="s2">&quot;data&quot;</span>
 <span class="n">csv_files</span> <span class="o">=</span> <span class="p">[</span>
     <span class="s2">&quot;People.csv&quot;</span><span class="p">,</span>
@@ -15363,7 +15464,7 @@ class="
 
 <span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">People</span>
 
-<span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">playerID</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span>
+<span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">playerID</span> <span class="nb">CHAR</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span>
 <span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">birthYear</span> <span class="nb">INT</span><span class="p">,</span>
 <span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">birthMonth</span> <span class="nb">INT</span><span class="p">,</span>
 <span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">birthDay</span> <span class="nb">INT</span><span class="p">,</span>
@@ -15379,7 +15480,7 @@ class="
 <span class="k">Modify</span> <span class="k">column</span> <span class="n">throws</span> <span class="n">ENUM</span><span class="p">(</span><span class="s1">&#39;R&#39;</span><span class="p">,</span><span class="s1">&#39;L&#39;</span><span class="p">,</span><span class="s1">&#39;S&#39;</span><span class="p">),</span>
 
 <span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">retroID</span> <span class="nb">CHAR</span><span class="p">(</span><span class="mi">8</span><span class="p">),</span>
-<span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">bbrefID</span> <span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span> <span class="o">#</span> <span class="k">Convert</span> <span class="n">PlayerID</span><span class="p">,</span> <span class="n">retroID</span><span class="p">,</span> <span class="n">bbrefID</span>
+<span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">bbrefID</span> <span class="nb">CHAR</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span> <span class="o">#</span> <span class="k">Convert</span> <span class="n">PlayerID</span><span class="p">,</span> <span class="n">retroID</span><span class="p">,</span> <span class="n">bbrefID</span>
 
 <span class="k">MODIFY</span> <span class="k">COLUMN</span>    <span class="n">debut</span>        <span class="nb">DATE</span>   <span class="k">null</span><span class="p">,</span>
 <span class="k">MODIFY</span> <span class="k">COLUMN</span>    <span class="n">finalGame</span>    <span class="nb">DATE</span>   <span class="k">null</span>
@@ -15524,6 +15625,142 @@ class="
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>[]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span> 
+<span class="k">select</span> 
+    <span class="n">playerid</span><span class="p">,</span>
+    <span class="n">birthDay</span><span class="p">,</span> 
+    <span class="n">birthMonth</span><span class="p">,</span> 
+    <span class="n">birthYear</span><span class="p">,</span>
+    <span class="nb">DATE</span><span class="p">(</span><span class="n">CONCAT_WS</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="n">birthYear</span><span class="p">,</span> <span class="n">birthMonth</span><span class="p">,</span> <span class="n">birthDay</span><span class="p">))</span>
+<span class="k">from</span> 
+    <span class="n">People</span>
+<span class="k">limit</span> <span class="mi">10</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+10 rows affected.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+    <tr>
+        <th>playerid</th>
+        <th>birthDay</th>
+        <th>birthMonth</th>
+        <th>birthYear</th>
+        <th>DATE(CONCAT_WS(&#x27;-&#x27;, birthYear, birthMonth, birthDay))</th>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>27</td>
+        <td>12</td>
+        <td>1981</td>
+        <td>1981-12-27</td>
+    </tr>
+    <tr>
+        <td>aaronha01</td>
+        <td>5</td>
+        <td>2</td>
+        <td>1934</td>
+        <td>1934-02-05</td>
+    </tr>
+    <tr>
+        <td>aaronto01</td>
+        <td>5</td>
+        <td>8</td>
+        <td>1939</td>
+        <td>1939-08-05</td>
+    </tr>
+    <tr>
+        <td>aasedo01</td>
+        <td>8</td>
+        <td>9</td>
+        <td>1954</td>
+        <td>1954-09-08</td>
+    </tr>
+    <tr>
+        <td>abadan01</td>
+        <td>25</td>
+        <td>8</td>
+        <td>1972</td>
+        <td>1972-08-25</td>
+    </tr>
+    <tr>
+        <td>abadfe01</td>
+        <td>17</td>
+        <td>12</td>
+        <td>1985</td>
+        <td>1985-12-17</td>
+    </tr>
+    <tr>
+        <td>abadijo01</td>
+        <td>4</td>
+        <td>11</td>
+        <td>1850</td>
+        <td>1850-11-04</td>
+    </tr>
+    <tr>
+        <td>abbated01</td>
+        <td>15</td>
+        <td>4</td>
+        <td>1877</td>
+        <td>1877-04-15</td>
+    </tr>
+    <tr>
+        <td>abbeybe01</td>
+        <td>11</td>
+        <td>11</td>
+        <td>1869</td>
+        <td>1869-11-11</td>
+    </tr>
+    <tr>
+        <td>abbeych01</td>
+        <td>14</td>
+        <td>10</td>
+        <td>1866</td>
+        <td>1866-10-14</td>
+    </tr>
+</table>
 </div>
 
 </div>
@@ -15721,6 +15958,22 @@ Batting.csv     People.csv      Teams.csv
 
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15888,6 +16141,10 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Bonus point:</strong> MySQL has a <code>YEAR</code> type, but we choose to not use it for <code>yearID</code>. Can you figure out why?</p>
+<ul>
+<li><code>yearID</code> is char type, giving more flexibility and allowing maximium of 4 digits. However,  <code>year</code> type is a fixed-length data type that can only store 4-character strings representing eyars in the format <code>YYYY</code>. Therefore, if I want to year in a foramt of 3 digits, <code>Year</code> type will not have such format.</li>
+</ul>
+<p>Therefore, it cannot store years with fewer or more than four digit</p>
 
 </div>
 </div>
@@ -16334,7 +16591,7 @@ Batting.csv     People.csv      Teams.csv
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
 
 <span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">Teams</span>
-
+<span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">yearID</span> <span class="nb">CHAR</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span>
 <span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">franchID</span> <span class="nb">CHAR</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span>
 <span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">divID</span> <span class="nb">CHAR</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span>
 <span class="k">MODIFY</span> <span class="k">COLUMN</span> <span class="n">teamID</span> <span class="nb">CHAR</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span>
@@ -16412,8 +16669,59 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span> 
+<span class="n">USE</span> <span class="n">lahmans_hw1</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+0 rows affected.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-<span class="o">#</span><span class="k">For</span> <span class="n">People</span> 
+<span class="o">#</span><span class="mi">1</span><span class="p">.</span> <span class="k">For</span> <span class="n">People</span> 
 <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="n">row_counntall</span><span class="p">,</span>
        <span class="k">count</span><span class="p">(</span><span class="k">distinct</span> <span class="n">playerID</span><span class="p">)</span> <span class="k">as</span> <span class="n">id_count</span>
 <span class="k">from</span> <span class="n">people</span>
@@ -16475,9 +16783,10 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-<span class="o">##</span> <span class="k">For</span> <span class="n">Managers</span>
+<span class="o">#</span> <span class="o">`</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="n">inseason</span><span class="o">`</span> <span class="k">is</span> <span class="n">the</span> <span class="k">primary</span> <span class="k">key</span> 
+<span class="o">##</span> <span class="mi">2</span><span class="p">.</span> <span class="k">For</span> <span class="n">Managers</span>
 <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="n">countall</span><span class="p">,</span>
-       <span class="k">count</span><span class="p">(</span><span class="k">distinct</span> <span class="n">concat</span><span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="n">inseason</span><span class="p">))</span> <span class="k">as</span> <span class="n">player_year_inseason_ID_count</span>
+       <span class="k">count</span><span class="p">(</span><span class="k">distinct</span> <span class="n">concat</span><span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">inseason</span><span class="p">))</span> <span class="k">as</span> <span class="n">player_year_inseason_ID_count</span>
 <span class="k">from</span> <span class="n">managers</span>
 </pre></div>
 
@@ -16537,9 +16846,17 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span><span class="mi">3</span><span class="p">.</span> <span class="k">Primary</span> <span class="n">candidate</span> <span class="k">key</span> <span class="k">for</span> <span class="n">Appearances</span>
+<span class="k">select</span> <span class="n">playerid</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="k">count</span> <span class="k">from</span> <span class="n">appearances</span>
+<span class="k">group</span> <span class="k">by</span> <span class="n">playerID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">yearID</span>
+<span class="k">order</span> <span class="k">by</span> <span class="k">count</span> <span class="k">desc</span>
+<span class="k">limit</span> <span class="mi">10</span><span class="p">;</span>
+
+
+
 <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="n">countall</span><span class="p">,</span>
-       <span class="k">count</span><span class="p">(</span><span class="k">distinct</span> <span class="n">concat</span><span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">))</span> <span class="k">as</span> <span class="n">player_year_team_ID_count</span>
-<span class="k">from</span> <span class="n">appearances</span>
+       <span class="k">count</span><span class="p">(</span><span class="k">distinct</span> <span class="n">concat</span><span class="p">(</span><span class="n">playerid</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">))</span> <span class="k">as</span> <span class="n">player_year_teamID_count</span>
+<span class="k">from</span> <span class="n">Appearances</span><span class="p">;</span>
 </pre></div>
 
      </div>
@@ -16560,6 +16877,7 @@ Batting.csv     People.csv      Teams.csv
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre> * mysql+pymysql://root:***@localhost
+10 rows affected.
 1 rows affected.
 </pre>
 </div>
@@ -16574,7 +16892,7 @@ Batting.csv     People.csv      Teams.csv
 <table>
     <tr>
         <th>countall</th>
-        <th>player_year_team_ID_count</th>
+        <th>player_year_teamID_count</th>
     </tr>
     <tr>
         <td>110422</td>
@@ -16598,6 +16916,7 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span> <span class="mi">4</span><span class="p">.</span> <span class="n">Batting</span> <span class="k">primary</span> <span class="k">key</span> 
 <span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="n">countall</span><span class="p">,</span>
 <span class="k">count</span><span class="p">(</span><span class="k">distinct</span> <span class="n">concat</span><span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span><span class="n">stint</span><span class="p">))</span> <span class="k">as</span> <span class="n">player_year_stint_ID</span> 
 <span class="k">from</span> <span class="n">batting</span>
@@ -16659,7 +16978,7 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-
+<span class="o">#</span> <span class="mi">5</span><span class="p">.</span> <span class="n">Pitching</span> <span class="k">Primary</span> <span class="k">Key</span>  
 <span class="k">select</span> 
        <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="n">countall</span><span class="p">,</span>
        <span class="k">count</span><span class="p">(</span><span class="k">distinct</span> <span class="n">concat</span><span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span> <span class="p">,</span><span class="n">stint</span><span class="p">))</span> <span class="k">as</span> <span class="n">player_year_stint_ID</span>
@@ -16713,6 +17032,69 @@ Batting.csv     People.csv      Teams.csv
 
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span><span class="mi">6</span><span class="p">.</span> <span class="k">primary</span> <span class="k">key</span> <span class="k">for</span> <span class="n">team</span><span class="p">:</span> 
+<span class="k">select</span> 
+       <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="n">countall</span><span class="p">,</span>
+       <span class="k">count</span><span class="p">(</span><span class="k">distinct</span> <span class="n">concat</span><span class="p">(</span><span class="n">yearID</span> <span class="p">,</span><span class="n">teamID</span><span class="p">))</span> <span class="k">as</span> <span class="n">player_year_team_ID</span>
+<span class="k">from</span> <span class="n">teams</span><span class="p">;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+1 rows affected.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+    <tr>
+        <th>countall</th>
+        <th>player_year_team_ID</th>
+    </tr>
+    <tr>
+        <td>2985</td>
+        <td>2985</td>
+    </tr>
+</table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -16734,6 +17116,7 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span><span class="mi">1</span><span class="p">.</span> <span class="n">People</span> 
 <span class="k">alter</span> <span class="k">table</span> <span class="n">People</span>
 <span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">)</span>
 </pre></div>
@@ -16786,8 +17169,131 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="k">select</span> 
+    <span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="n">inseason</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="k">count</span>
+<span class="k">from</span> <span class="n">Managers</span> 
+<span class="k">group</span> <span class="k">by</span>  <span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="n">inseason</span>
+<span class="k">order</span> <span class="k">by</span> <span class="k">count</span> <span class="k">desc</span>
+<span class="k">limit</span> <span class="mi">10</span><span class="p">;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+10 rows affected.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+    <tr>
+        <th>playerID</th>
+        <th>yearID</th>
+        <th>inseason</th>
+        <th>count</th>
+    </tr>
+    <tr>
+        <td>wrighha01</td>
+        <td>1871</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>woodji01</td>
+        <td>1871</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>paborch01</td>
+        <td>1871</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>lennobi01</td>
+        <td>1871</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>deaneha01</td>
+        <td>1871</td>
+        <td>2</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>fergubo01</td>
+        <td>1871</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>mcbridi01</td>
+        <td>1871</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>hastisc01</td>
+        <td>1871</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>pikeli01</td>
+        <td>1871</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>cravebi01</td>
+        <td>1871</td>
+        <td>2</td>
+        <td>1</td>
+    </tr>
+</table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span> <span class="mi">2</span><span class="p">.</span> <span class="n">Managers</span>
 <span class="k">alter</span> <span class="k">table</span> <span class="n">Managers</span>
-<span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="n">inseason</span><span class="p">)</span>
+<span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">inseason</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16838,6 +17344,7 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span> <span class="mi">3</span><span class="p">.</span> <span class="n">Appearances</span>
 <span class="k">alter</span> <span class="k">table</span> <span class="n">Appearances</span>
 <span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">)</span>
 </pre></div>
@@ -16890,9 +17397,10 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span> <span class="mi">4</span><span class="p">.</span> <span class="n">Batting</span>
 
 <span class="k">alter</span> <span class="k">table</span> <span class="n">Batting</span>
-<span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span> <span class="p">,</span><span class="n">stint</span><span class="p">)</span>
+<span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span> <span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">stint</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16943,9 +17451,9 @@ Batting.csv     People.csv      Teams.csv
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-
+<span class="o">#</span> <span class="mi">5</span><span class="p">.</span> <span class="n">Pitching</span>
 <span class="k">alter</span> <span class="k">table</span> <span class="n">Pitching</span>
-<span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span> <span class="p">,</span><span class="n">stint</span><span class="p">)</span>
+<span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">,</span> <span class="n">yearID</span> <span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">stint</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16966,12 +17474,21 @@ Batting.csv     People.csv      Teams.csv
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre> * mysql+pymysql://root:***@localhost
-(pymysql.err.OperationalError) (1068, &#39;Multiple primary key defined&#39;)
-[SQL: alter table Pitching
-add primary key (playerID, yearID ,stint)]
-(Background on this error at: https://sqlalche.me/e/14/e3q8)
+0 rows affected.
 </pre>
 </div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[]</pre>
+</div>
+
 </div>
 
 </div>
@@ -16987,8 +17504,9 @@ add primary key (playerID, yearID ,stint)]
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span> <span class="mi">6</span><span class="p">.</span> <span class="n">Teams</span>
 <span class="k">alter</span> <span class="k">table</span> <span class="n">Teams</span>
-<span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">yearID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">)</span>
+<span class="k">add</span> <span class="k">primary</span> <span class="k">key</span> <span class="p">(</span><span class="n">yearID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">);</span>
 </pre></div>
 
      </div>
@@ -17107,7 +17625,7 @@ class="
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-<span class="o">#</span> <span class="n">Appearances</span> <span class="k">primary</span> <span class="k">key</span>  <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span> 
+<span class="o">#</span> <span class="mi">1</span><span class="p">.</span> <span class="n">Appearances</span> <span class="k">primary</span> <span class="k">key</span>  <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span> 
 <span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">appearances</span> 
 <span class="k">where</span> <span class="n">playerID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
     <span class="k">select</span> <span class="n">playerID</span> <span class="k">from</span> <span class="n">people</span>
@@ -17185,7 +17703,279 @@ class="
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-<span class="o">##</span> <span class="n">Managers</span> <span class="k">primary</span> <span class="k">key</span>  <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span> 
+<span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">teams</span> <span class="k">limit</span> <span class="mi">1</span><span class="p">;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+1 rows affected.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+    <tr>
+        <th>yearID</th>
+        <th>lgID</th>
+        <th>teamID</th>
+        <th>franchID</th>
+        <th>divID</th>
+        <th>Rank</th>
+        <th>G</th>
+        <th>Ghome</th>
+        <th>W</th>
+        <th>L</th>
+        <th>DivWin</th>
+        <th>WCWin</th>
+        <th>LgWin</th>
+        <th>WSWin</th>
+        <th>R</th>
+        <th>AB</th>
+        <th>H</th>
+        <th>2B</th>
+        <th>3B</th>
+        <th>HR</th>
+        <th>BB</th>
+        <th>SO</th>
+        <th>SB</th>
+        <th>CS</th>
+        <th>HBP</th>
+        <th>SF</th>
+        <th>RA</th>
+        <th>ER</th>
+        <th>ERA</th>
+        <th>CG</th>
+        <th>SHO</th>
+        <th>SV</th>
+        <th>IPouts</th>
+        <th>HA</th>
+        <th>HRA</th>
+        <th>BBA</th>
+        <th>SOA</th>
+        <th>E</th>
+        <th>DP</th>
+        <th>FP</th>
+        <th>name</th>
+        <th>park</th>
+        <th>attendance</th>
+        <th>BPF</th>
+        <th>PPF</th>
+        <th>teamIDBR</th>
+        <th>teamIDlahman45</th>
+        <th>teamIDretro</th>
+    </tr>
+    <tr>
+        <td>1871</td>
+        <td>None</td>
+        <td>BS1</td>
+        <td>BNA</td>
+        <td>None</td>
+        <td>3</td>
+        <td>31</td>
+        <td>None</td>
+        <td>20</td>
+        <td>10</td>
+        <td>None</td>
+        <td>None</td>
+        <td>N</td>
+        <td>None</td>
+        <td>401</td>
+        <td>1372</td>
+        <td>426</td>
+        <td>70</td>
+        <td>37</td>
+        <td>3</td>
+        <td>60.0</td>
+        <td>19.0</td>
+        <td>73.0</td>
+        <td>16.0</td>
+        <td>None</td>
+        <td>None</td>
+        <td>303</td>
+        <td>109</td>
+        <td>3.55</td>
+        <td>22</td>
+        <td>1</td>
+        <td>3</td>
+        <td>828</td>
+        <td>367</td>
+        <td>2</td>
+        <td>42</td>
+        <td>23</td>
+        <td>243</td>
+        <td>24</td>
+        <td>0.834</td>
+        <td>Boston Red Stockings</td>
+        <td>South End Grounds I</td>
+        <td>None</td>
+        <td>103</td>
+        <td>98</td>
+        <td>BOS</td>
+        <td>BS1</td>
+        <td>BS1</td>
+    </tr>
+</table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span><span class="mi">2</span><span class="p">.</span> <span class="k">Primary</span> <span class="n">candidate</span> <span class="k">key</span> <span class="k">check</span> <span class="k">for</span> <span class="n">Appearances</span>
+<span class="k">select</span> <span class="n">playerID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="k">count</span> <span class="k">from</span> <span class="n">appearances</span>
+<span class="k">group</span> <span class="k">by</span> <span class="n">playerID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">yearID</span>
+<span class="k">order</span> <span class="k">by</span> <span class="k">count</span> <span class="k">desc</span>
+<span class="k">limit</span> <span class="mi">10</span><span class="p">;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+10 rows affected.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+    <tr>
+        <th>playerID</th>
+        <th>teamID</th>
+        <th>yearID</th>
+        <th>count</th>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>ATL</td>
+        <td>2015</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>BOS</td>
+        <td>2008</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>CHA</td>
+        <td>2007</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>CHN</td>
+        <td>2006</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>NYA</td>
+        <td>2012</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>NYN</td>
+        <td>2013</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>SEA</td>
+        <td>2009</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>SEA</td>
+        <td>2010</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>aardsda01</td>
+        <td>SFN</td>
+        <td>2004</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>aaronha01</td>
+        <td>ATL</td>
+        <td>1966</td>
+        <td>1</td>
+    </tr>
+</table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">##</span> <span class="mi">3</span><span class="p">.</span> <span class="n">Managers</span> <span class="k">primary</span> <span class="k">key</span> <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span> 
 <span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">Managers</span> <span class="k">where</span> <span class="n">playerID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
     <span class="k">select</span> <span class="n">playerID</span> <span class="k">from</span> <span class="n">People</span><span class="p">)</span>
 </pre></div>
@@ -17250,12 +18040,12 @@ class="
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-<span class="o">#</span> <span class="n">Team</span> <span class="k">primary</span> <span class="k">key</span>  <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span> 
+<span class="o">#</span> <span class="mi">4</span><span class="p">.</span> <span class="n">Team</span> <span class="k">primary</span> <span class="k">key</span>  <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span> 
 <span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">Teams</span> 
 <span class="k">where</span> <span class="n">TeamID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
-    <span class="k">select</span> <span class="n">TeamID</span> <span class="k">from</span> <span class="n">People</span><span class="p">)</span>
+    <span class="k">select</span> <span class="n">TeamID</span> <span class="k">from</span> <span class="n">Managers</span><span class="p">)</span>
 <span class="k">and</span> <span class="n">yearID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
-    <span class="k">select</span> <span class="n">yearID</span> <span class="k">from</span> <span class="n">People</span>
+    <span class="k">select</span> <span class="n">yearID</span> <span class="k">from</span> <span class="n">Managers</span>
 <span class="p">)</span>
 </pre></div>
 
@@ -17357,7 +18147,65 @@ class="
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-<span class="o">#</span> <span class="n">Batting</span> <span class="k">primary</span> <span class="k">key</span>  <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span> 
+<span class="o">#</span><span class="n">another</span> <span class="n">way</span> <span class="k">to</span> <span class="k">check</span> <span class="n">the</span> <span class="n">foregin</span> <span class="k">and</span> <span class="k">primary</span> <span class="k">key</span> <span class="k">for</span> <span class="n">Appearance</span> <span class="p">(</span><span class="n">pitching</span> <span class="k">and</span> <span class="n">Batting</span><span class="p">)</span>
+<span class="o">#</span><span class="mi">2</span><span class="p">.</span> <span class="k">Primary</span> <span class="n">candidate</span> <span class="k">key</span> <span class="k">check</span> <span class="k">for</span> <span class="n">Appearances</span>
+<span class="k">select</span> <span class="n">playerID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span>  <span class="n">stint</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="k">count</span> <span class="k">from</span> <span class="n">pitching</span>
+<span class="k">group</span> <span class="k">by</span> <span class="n">playerID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span><span class="n">stint</span>
+<span class="k">order</span> <span class="k">by</span> <span class="k">count</span> <span class="k">desc</span>
+<span class="k">limit</span> <span class="mi">10</span><span class="p">;</span>
+<span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span><span class="mi">2</span><span class="p">.</span> <span class="k">Primary</span> <span class="n">candidate</span> <span class="k">key</span> <span class="k">check</span> <span class="k">for</span> <span class="n">Appearances</span>
+<span class="k">select</span> <span class="n">playerID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span>  <span class="n">stint</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">as</span> <span class="k">count</span> <span class="k">from</span> <span class="n">batting</span>
+<span class="k">group</span> <span class="k">by</span> <span class="n">playerID</span><span class="p">,</span> <span class="n">teamID</span><span class="p">,</span> <span class="n">yearID</span><span class="p">,</span><span class="n">stint</span>
+<span class="k">order</span> <span class="k">by</span> <span class="k">count</span> <span class="k">desc</span>
+<span class="k">limit</span> <span class="mi">10</span><span class="p">;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+10 rows affected.
+(pymysql.err.ProgrammingError) (1064, &#34;You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;%%sql\n#2. Primary candidate key check for Appearances\nselect playerID, teamID, y&#39; at line 1&#34;)
+[SQL: %%%%sql
+#2. Primary candidate key check for Appearances
+select playerID, teamID, yearID,  stint, count(*) as count from batting
+group by playerID, teamID, yearID,stint
+order by count desc
+limit 10;]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span> <span class="mi">5</span><span class="p">.</span> <span class="n">Batting</span> <span class="k">primary</span> <span class="k">key</span>  <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span> 
 <span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">Batting</span> <span class="k">where</span> <span class="n">playerID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
     <span class="k">select</span> <span class="n">playerID</span> <span class="k">from</span> <span class="n">Appearances</span><span class="p">)</span>
 <span class="k">and</span> <span class="n">yearID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
@@ -17439,7 +18287,7 @@ class="
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-<span class="o">#</span><span class="n">Pitching</span> <span class="k">primary</span> <span class="k">key</span> <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span>
+<span class="o">#</span><span class="mi">6</span><span class="p">.</span> <span class="n">Pitching</span> <span class="k">primary</span> <span class="k">key</span> <span class="k">check</span> <span class="k">with</span> <span class="n">foregin</span> <span class="k">key</span>
 <span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">Pitching</span> <span class="k">where</span> <span class="n">playerID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
     <span class="k">select</span> <span class="n">playerID</span> <span class="k">from</span> <span class="n">Appearances</span><span class="p">)</span>
 <span class="k">and</span> <span class="n">yearID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
@@ -17529,8 +18377,9 @@ class="
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
-<span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">Managers</span> <span class="k">where</span> <span class="n">playerID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
-    <span class="k">select</span> <span class="n">playerID</span> <span class="k">from</span> <span class="n">People</span><span class="p">)</span>
+<span class="o">#</span><span class="k">check</span> <span class="n">team</span> <span class="k">primary</span> <span class="k">key</span> <span class="k">with</span> <span class="n">managers</span>
+<span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">Managers</span> <span class="k">where</span> <span class="n">teamID</span> <span class="k">not</span> <span class="k">in</span> <span class="p">(</span>
+    <span class="k">select</span> <span class="n">teamID</span> <span class="k">from</span> <span class="n">Teams</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -17592,6 +18441,181 @@ class="
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Write and execute <code>ALTER TABLE</code> statements to add your foreign keys to the tables.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="n">USE</span> <span class="n">lahmans_hw1</span><span class="p">;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+0 rows affected.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="o">#</span> <span class="mi">1</span><span class="p">.</span> <span class="k">Add</span> <span class="n">foregin</span> <span class="k">key</span> 
+<span class="o">#</span> <span class="n">Managers</span> <span class="o">&amp;</span> <span class="n">People</span> <span class="p">:</span> <span class="o">`</span><span class="n">PlayerID</span><span class="o">``</span>
+<span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">Managers</span>
+<span class="k">add</span> <span class="k">constraint</span> <span class="n">Managers__fk</span>
+<span class="k">foreign</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">)</span> <span class="k">references</span> <span class="n">People</span> <span class="p">(</span><span class="n">playerID</span><span class="p">);</span>
+
+
+<span class="o">#</span> <span class="mi">2</span><span class="p">.</span> <span class="k">Add</span> <span class="k">Foreign</span> <span class="k">key</span> 
+<span class="o">#</span> <span class="n">Manger</span> <span class="k">and</span> <span class="n">Teams</span><span class="p">:</span> <span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">Managers</span>
+    <span class="k">add</span> <span class="k">constraint</span> <span class="n">Managers_Teams__fk</span>
+        <span class="k">foreign</span> <span class="k">key</span> <span class="p">(</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span><span class="p">)</span> <span class="k">references</span> <span class="n">Teams</span> <span class="p">(</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span><span class="p">);</span>
+
+<span class="o">#</span> <span class="mi">3</span><span class="p">.</span> <span class="k">Add</span> <span class="n">foregin</span> <span class="k">key</span> 
+<span class="o">#</span>  <span class="n">appearances</span> <span class="o">&amp;</span> <span class="n">team</span> <span class="p">:</span> <span class="o">`</span><span class="n">playerID</span><span class="o">`</span> 
+
+<span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">Appearances</span>
+<span class="k">add</span> <span class="k">constraint</span> <span class="n">Appearances_Teams_fk</span>
+<span class="k">foreign</span> <span class="k">key</span> <span class="p">(</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span><span class="p">)</span> <span class="k">references</span> <span class="n">Teams</span> <span class="p">(</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span><span class="p">);</span>
+
+<span class="o">#</span><span class="mi">4</span><span class="p">.</span> <span class="k">Add</span> <span class="n">foregin</span> <span class="k">key</span>
+<span class="o">#</span>   <span class="n">People</span> <span class="o">&amp;</span>  <span class="n">Appearances</span> <span class="p">:</span> <span class="o">`</span><span class="n">PlayerID</span><span class="o">`</span>
+<span class="k">ALTER</span> <span class="k">TABLE</span> <span class="n">Appearances</span>
+<span class="k">add</span> <span class="k">constraint</span> <span class="n">Appearances__fk</span>
+<span class="k">foreign</span> <span class="k">key</span> <span class="p">(</span><span class="n">playerID</span><span class="p">)</span> <span class="k">references</span> <span class="n">People</span> <span class="p">(</span><span class="n">playerID</span><span class="p">);</span>
+
+<span class="o">#</span><span class="mi">5</span><span class="p">.</span> <span class="k">Add</span> <span class="n">foregin</span> <span class="k">key</span> <span class="o">!!!!!!!!</span> <span class="k">ORDER</span> <span class="n">MATTERS</span> <span class="p">(</span><span class="n">you</span> <span class="n">have</span> <span class="k">to</span> <span class="n">follow</span> <span class="n">the</span> <span class="p">)</span>
+<span class="o">#</span>   <span class="n">Pitching</span> <span class="o">&amp;</span>  <span class="n">Appearances</span> <span class="p">:</span> <span class="o">`</span><span class="n">playerID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">Pitching</span>
+    <span class="k">add</span> <span class="k">constraint</span> <span class="n">Pitching_Appearance__fk</span>
+        <span class="k">foreign</span> <span class="k">key</span> <span class="p">(</span><span class="o">`</span><span class="n">playerID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span><span class="p">)</span> <span class="k">references</span> <span class="n">Appearances</span> <span class="p">(</span><span class="o">`</span><span class="n">playerID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span><span class="p">);</span>
+
+<span class="o">#</span><span class="mi">6</span><span class="p">.</span> <span class="k">Add</span> <span class="n">foregin</span> <span class="k">key</span> <span class="o">!!!!!!!!</span> <span class="k">ORDER</span> <span class="n">MATTERS</span> <span class="p">(</span><span class="n">you</span> <span class="n">have</span> <span class="k">to</span> <span class="n">follow</span> <span class="n">the</span> <span class="p">)</span>
+<span class="o">#</span>   <span class="n">Batting</span> <span class="o">&amp;</span>  <span class="n">Appearances</span> <span class="p">:</span> <span class="o">`</span><span class="n">playerID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">Batting</span>
+    <span class="k">add</span> <span class="k">constraint</span> <span class="n">Batting_Appearance__fk</span>
+        <span class="k">foreign</span> <span class="k">key</span> <span class="p">(</span><span class="o">`</span><span class="n">playerID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span><span class="p">)</span> <span class="k">references</span> <span class="n">Appearances</span> <span class="p">(</span><span class="o">`</span><span class="n">playerID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">yearID</span><span class="o">`</span><span class="p">,</span><span class="o">`</span><span class="n">teamID</span><span class="o">`</span><span class="p">);</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+3684 rows affected.
+3684 rows affected.
+110422 rows affected.
+110422 rows affected.
+49430 rows affected.
+110493 rows affected.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>''''
+Notes:</p>
+<ol>
+<li>creating 2 sepreate FK</li>
+</ol>
+<p>(yearID)-&gt; teams(yearID)
+(teamID)-&gt;teams(teamID)</p>
+<p>a more specific constraint on the relationship 
+(a valid tuple will need to have both the same yearID and the same teamID as the table it is related to).</p>
+<p>(yearID,teamID)-&gt;teams(yearID,teamID)</p>
+<ol start="2">
+<li><p><code>Order matters</code>: NOT valid if ((yearID,teamID)-&gt;teams(teamID,yearID)) this wont work.</p>
+</li>
+<li><p>A foregin key can only reference primary key of another table. For exp:</p>
+</li>
+</ol>
+<p>alter table Pitching
+    add constraint Pitching_Appearance__fk
+        foreign key (<code>playerID</code>,<code>yearID</code>,<code>teamID</code>) references Appearances (<code>playerID</code>,<code>yearID</code>,<code>teamID</code>);
+    solution: you either ceate <code>new index columns</code> for reference or make sure the <code>table you are refering to have all the necessary columns</code> 
+'''</p>
 
 </div>
 </div>
@@ -17964,7 +18988,7 @@ class="
     <span class="n">p</span><span class="p">.</span><span class="n">nameLast</span>
 <span class="k">ORDER</span> <span class="k">BY</span>
     <span class="n">careerPlayerGames</span> <span class="o">+</span> <span class="n">careerManagerGames</span> <span class="k">DESC</span>
-<span class="k">LIMIT</span> <span class="mi">10</span><span class="p">;</span>
+<span class="k">limit</span> <span class="mi">10</span><span class="p">;</span>
 </pre></div>
 
      </div>
@@ -18005,74 +19029,74 @@ class="
         <th>careerManagerGames</th>
     </tr>
     <tr>
-        <td>willite01</td>
-        <td>Ted</td>
-        <td>Williams</td>
-        <td>9168</td>
-        <td>12103</td>
+        <td>torrejo01</td>
+        <td>Joe</td>
+        <td>Torre</td>
+        <td>64061</td>
+        <td>77814</td>
     </tr>
     <tr>
-        <td>willima04</td>
-        <td>Matt</td>
-        <td>Williams</td>
-        <td>3732</td>
-        <td>5508</td>
+        <td>mcgrajo01</td>
+        <td>John</td>
+        <td>McGraw</td>
+        <td>39780</td>
+        <td>85842</td>
     </tr>
     <tr>
-        <td>williji03</td>
-        <td>Jimy</td>
-        <td>Williams</td>
-        <td>168</td>
-        <td>3400</td>
+        <td>mackco01</td>
+        <td>Connie</td>
+        <td>Mack</td>
+        <td>38372</td>
+        <td>85305</td>
     </tr>
     <tr>
-        <td>willimi02</td>
-        <td>Mitch</td>
-        <td>Williams</td>
-        <td>619</td>
-        <td>0</td>
+        <td>bakerdu01</td>
+        <td>Dusty</td>
+        <td>Baker</td>
+        <td>48936</td>
+        <td>70376</td>
     </tr>
     <tr>
-        <td>willike02</td>
-        <td>Ken</td>
-        <td>Williams</td>
-        <td>451</td>
-        <td>0</td>
+        <td>dykesji01</td>
+        <td>Jimmy</td>
+        <td>Dykes</td>
+        <td>50226</td>
+        <td>65164</td>
     </tr>
     <tr>
-        <td>willitr01</td>
-        <td>Trevor</td>
-        <td>Williams</td>
-        <td>129</td>
-        <td>0</td>
+        <td>ansonca01</td>
+        <td>Cap</td>
+        <td>Anson</td>
+        <td>53004</td>
+        <td>61776</td>
     </tr>
     <tr>
-        <td>willibe01</td>
-        <td>Bernie</td>
-        <td>Williams</td>
-        <td>102</td>
-        <td>0</td>
+        <td>durocle01</td>
+        <td>Leo</td>
+        <td>Durocher</td>
+        <td>42562</td>
+        <td>67302</td>
     </tr>
     <tr>
-        <td>williri03</td>
-        <td>Rick</td>
-        <td>Williams</td>
-        <td>48</td>
-        <td>0</td>
+        <td>pinielo01</td>
+        <td>Lou</td>
+        <td>Piniella</td>
+        <td>40181</td>
+        <td>63648</td>
     </tr>
     <tr>
-        <td>willish01</td>
-        <td>Shad</td>
-        <td>Williams</td>
-        <td>14</td>
-        <td>0</td>
+        <td>clarkfr01</td>
+        <td>Fred</td>
+        <td>Clarke</td>
+        <td>42674</td>
+        <td>59409</td>
     </tr>
     <tr>
-        <td>williri02</td>
-        <td>Rinaldo</td>
-        <td>Williams</td>
-        <td>4</td>
-        <td>0</td>
+        <td>robinfr02</td>
+        <td>Frank</td>
+        <td>Robinson</td>
+        <td>44928</td>
+        <td>49324</td>
     </tr>
 </table>
 </div>
@@ -18095,6 +19119,158 @@ class="
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
+<span class="k">SELECT</span>
+    <span class="n">p</span><span class="p">.</span><span class="n">playerID</span><span class="p">,</span>
+    <span class="n">p</span><span class="p">.</span><span class="n">nameFirst</span><span class="p">,</span>
+    <span class="n">p</span><span class="p">.</span><span class="n">nameLast</span><span class="p">,</span>
+    <span class="n">IFNULL</span><span class="p">(</span><span class="k">SUM</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">G_all</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span> <span class="k">AS</span> <span class="n">careerPlayerGames</span><span class="p">,</span>
+    <span class="n">IFNULL</span><span class="p">(</span><span class="k">SUM</span><span class="p">(</span><span class="n">m</span><span class="p">.</span><span class="k">G</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span> <span class="k">AS</span> <span class="n">careerManagerGames</span>  
+<span class="k">FROM</span>
+    <span class="n">People</span> <span class="k">AS</span> <span class="n">p</span>
+<span class="k">LEFT</span> <span class="k">JOIN</span>
+    <span class="n">Appearances</span> <span class="k">AS</span> <span class="n">a</span>
+<span class="k">ON</span>
+    <span class="n">p</span><span class="p">.</span><span class="n">playerID</span> <span class="o">=</span> <span class="n">a</span><span class="p">.</span><span class="n">playerID</span>
+<span class="k">LEFT</span> <span class="k">JOIN</span>
+    <span class="n">Managers</span> <span class="k">AS</span> <span class="n">m</span>
+<span class="k">ON</span>
+    <span class="n">p</span><span class="p">.</span><span class="n">playerID</span> <span class="o">=</span> <span class="n">m</span><span class="p">.</span><span class="n">playerID</span>
+<span class="k">GROUP</span> <span class="k">BY</span>
+    <span class="n">p</span><span class="p">.</span><span class="n">playerID</span><span class="p">,</span>
+    <span class="n">p</span><span class="p">.</span><span class="n">nameFirst</span><span class="p">,</span>
+    <span class="n">p</span><span class="p">.</span><span class="n">nameLast</span>
+<span class="k">HAVING</span>
+    <span class="n">careerManagerGames</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">ORDER</span> <span class="k">BY</span>
+    <span class="n">careerPlayerGames</span> <span class="o">+</span> <span class="n">careerManagerGames</span> <span class="k">desc</span>
+<span class="k">limit</span> <span class="mi">10</span><span class="p">;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre> * mysql+pymysql://root:***@localhost
+10 rows affected.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+    <tr>
+        <th>playerID</th>
+        <th>nameFirst</th>
+        <th>nameLast</th>
+        <th>careerPlayerGames</th>
+        <th>careerManagerGames</th>
+    </tr>
+    <tr>
+        <td>yastrca01</td>
+        <td>Carl</td>
+        <td>Yastrzemski</td>
+        <td>3308</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>aaronha01</td>
+        <td>Hank</td>
+        <td>Aaron</td>
+        <td>3298</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>henderi01</td>
+        <td>Rickey</td>
+        <td>Henderson</td>
+        <td>3081</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>murraed02</td>
+        <td>Eddie</td>
+        <td>Murray</td>
+        <td>3026</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>musiast01</td>
+        <td>Stan</td>
+        <td>Musial</td>
+        <td>3026</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>ripkeca01</td>
+        <td>Cal</td>
+        <td>Ripken</td>
+        <td>3001</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>mayswi01</td>
+        <td>Willie</td>
+        <td>Mays</td>
+        <td>2992</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>bondsba01</td>
+        <td>Barry</td>
+        <td>Bonds</td>
+        <td>2986</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>winfida01</td>
+        <td>Dave</td>
+        <td>Winfield</td>
+        <td>2973</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>pujolal01</td>
+        <td>Albert</td>
+        <td>Pujols</td>
+        <td>2971</td>
+        <td>0</td>
+    </tr>
+</table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </body>
 

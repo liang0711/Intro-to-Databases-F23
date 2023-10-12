@@ -22,7 +22,7 @@ db = DB(
     host="localhost",
     port=3306,
     user="root",
-    password="dbuserdbuser",
+    password="Jobapplication2022.",
     database="db_book_hw1",
 )
 
