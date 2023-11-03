@@ -13,6 +13,7 @@ class DB:
             password=password,
             database=database,
             cursorclass=pymysql.cursors.DictCursor,
+            autocommit=True
         )
         self.conn = conn
 
@@ -47,6 +48,7 @@ class DB:
         :param filters: Key-value pairs that the rows from table must satisfy
         :returns: A query string and any placeholder arguments
         """
+<<<<<<< HEAD
         q = "SELECT * FROM " + table
         val_ls = []
         if filters:
@@ -57,6 +59,27 @@ class DB:
                 q = q + k + " = %s AND "
             q = q[:-5]
         return q, val_ls
+=======
+        result = "select * from " + table + " "
+        where_condition = None
+        arguments = None
+
+        if filters:
+            slots = []
+            arguments = []
+
+            result += "where "
+
+            for k, v in filters.items():
+                slots.append(k + "=%s")
+                arguments.append(v)
+
+            where_condition = " AND ".join(slots)
+
+            result += where_condition
+
+        return result, arguments
+>>>>>>> e0c109bc055f2cff53eff3ff153e3d66d88ff54c
 
     def select(self, table: str, filters: KV) -> List[KV]:
         """Runs a select statement. You should use build_select_query and execute_query.
@@ -65,8 +88,15 @@ class DB:
         :param filters: Key-value pairs that the rows to be selected must satisfy
         :returns: The selected rows
         """
+<<<<<<< HEAD
         q, val_ls = self.build_select_query(table, filters)
         return self.execute_query(q, val_ls, True)
+=======
+        q, args = self.build_select_query(table, filters)
+        result = self.execute_query(q, args, True)
+        return result
+
+>>>>>>> e0c109bc055f2cff53eff3ff153e3d66d88ff54c
 
     @staticmethod
     def build_insert_query(table: str, values: KV) -> Query:
